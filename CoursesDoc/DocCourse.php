@@ -11,8 +11,7 @@ $res = $sql->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
     <?php
-    $Direccion = $_SERVER['PHP_SELF'];
-    $Direccion = $Direccion.'';/*
+    /*
     if ($Direccion == "/Proyecto-Integrador/DocenteNotas/Evaluaciones.php" || $Direccion == "/Proyecto-Integrador/DocenteNotas/ModificaNota.php") {
         foreach($res as $row){
         ?>

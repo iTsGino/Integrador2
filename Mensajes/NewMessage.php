@@ -395,6 +395,7 @@ if($Direccion == "/Proyecto-Integrador/Mensajes/ReadMail.php"){
                                         </div>
                                         <div class="form-group col-md-10">
                                             <?php
+                                            echo $Direccion;
                                             if($Direccion == "/Proyecto-Integrador/Mensajes/ReadMail.php"){
                                                 ?>
                                                 <input type="text" class="form-control" name="Destinatario" id="Destinatario" value="<?php echo $UsuEmi ?>" readonly>

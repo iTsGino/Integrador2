@@ -59,6 +59,7 @@ if($Direccion == "/Proyecto-Integrador/MensajesDoc/ReadMailDoc.php"){
 
 </head>
 
+
 <body id="page-top">
 
     <!-- Page Wrapper -->
@@ -134,7 +135,7 @@ if($Direccion == "/Proyecto-Integrador/MensajesDoc/ReadMailDoc.php"){
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="PageMailDoc.php">
+                <a class="nav-link" href="../PageMailDoc.php">
                     <i class="fas fa-fw fa-inbox"></i>
                     <span>BANDEJA DE ENTRADA</span></a>
             </li>
